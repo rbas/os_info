@@ -18,7 +18,7 @@ jobs:
           override: true
 
       - name: Run cargo-tarpaulin
-        uses: actions-rs/tarpaulin@v0.1
+        uses: actions-rs/tarpaulin@v0.2
         with:
           version: latest
           args: '-- --test-threads 1'
